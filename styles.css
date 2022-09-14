@@ -10,15 +10,80 @@
 body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   background-color: #B4E4E6;
-  color: #453D3D
+  color: #453D3D;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
 }
-img {
-  max-width: 5%;
-  max-height: 5%;
+
+#top-title{
+  display: flex;
+  justify-content: center;
+}
+
+#create-account{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+}
+
+#deliver-dates{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+}
+
+#shopping-window{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+}
+
+#customize-order{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+}
+
+main{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+#get-started{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+p{
+  font-size: 25px;
 }
 
 button {
   background-color: #B32274;
+  border-radius: 10px;
+  border-style: none;
   color: white;
+  width: 12%;
+  height: 28%;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 22px;
 }
